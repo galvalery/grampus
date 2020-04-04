@@ -1,0 +1,24 @@
+.main-section {
+  min-height: 768px;
+  background: url(../img/main.section.png);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.main-section::after {
+  position: absolute;
+  content: "";
+  z-index: 11;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+}
+
+.main-section .container {
+  position: relative;
+  z-index: 21;
+}

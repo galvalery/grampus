@@ -1,0 +1,4 @@
+@import "helpers/normalize"; // удалить предустановленные стили
+@import "helpers/variables"; // подключить миксины(?)
+@import "helpers/grid";      // основная таблица стилей
+@import "helpers/header";      // таблица стилей для header
